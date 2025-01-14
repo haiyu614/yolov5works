@@ -1,0 +1,7 @@
+train: d:/RCSlearn/yolov5_github/data/demo/images/train/
+val: d:/RCSlearn/yolov5_github/data/demo/images/val/
+
+
+nc: 3
+
+names: ['cat','xuebao','dinosaur']
