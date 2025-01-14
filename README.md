@@ -5,7 +5,7 @@
 模型选的是yolov5s，训练了100个epoch，batch-size为4，使用cpu进行训练。
 </p>
 <p>训练了3类，分别是cat、xuebao（雪豹）、dinosaur,训练了大概26张图片,训练过程中产生了一个警告：
-<em>“FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.”<em></p>
+<em>“FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.”<em>，但好像没什么关系</p>
 <h3>训练命令：</h3>
 
 ```bash
