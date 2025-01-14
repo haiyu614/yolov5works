@@ -1,3 +1,5 @@
+<h1>基于YOLOV5 version-7.0</h1>
+
 <h2>训练过程</h3>
 <p>数据集在data的demo目录下，分为images和labels两个文件夹，images文件夹存放训练图片，labels文件夹存放训练图片对应的标签文件。</p>
 <p>
