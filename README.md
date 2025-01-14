@@ -1,7 +1,7 @@
 <h2>训练过程</h3>
 <p>数据集在data的demo目录下，分为images和labels两个文件夹，images文件夹存放训练图片，labels文件夹存放训练图片对应的标签文件。</p>
 <p>
-分别配置了两个yaml文件，一个是data的配置文件my_data.yaml，另一个是weigth的配置文件my_model.yaml。分别在data目录和models目录下创建。
+分别配置了两个yaml文件，一个是data的配置文件my_data.yaml，另一个是weight的配置文件my_model.yaml。分别在data目录和models目录下创建。
 模型选的是yolov5s，训练了100个epoch，batch-size为4，使用cpu进行训练。
 </p>
 <p>训练了3类，分别是cat、xuebao（雪豹）、dinosaur,训练了大概26张图片,训练过程中产生了一个警告：
